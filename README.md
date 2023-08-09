@@ -1,2 +1,2 @@
-# wechat-weather
-test for git action
+## 天气预报
+测试获取天气预报推送到邮箱中
