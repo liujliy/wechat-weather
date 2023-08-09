@@ -14,7 +14,7 @@ jobs:
       - name: '查询天气'
         run: bash ./weather.sh
       - name: '获取时间'
-        run: echo "REPORT_DATE=$(TZ=':Asia/Hangzhou' date '+%Y-%m-%d %T')" >> $GITHUB_ENV
+        run: echo "REPORT_DATE=$(TZ=':Asia/Shanghai' date '+%Y-%m-%d %T')" >> $GITHUB_ENV
       - name: '发送邮件'
         uses: dawidd6/action-send-mail@master
         with:
