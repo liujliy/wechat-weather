@@ -8,5 +8,5 @@ UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Ge
 curl \
   -H "Accept-Language: $LANGUAGE" \
   -H "User-Agent: $UA" \
-  -o result.txt \
-  https://wttr.in/Hangzhou:Xihu?format=v2\&m
+  -o result.html \
+  https://wttr.in/Hangzhou:Xihu?format=4\&M
