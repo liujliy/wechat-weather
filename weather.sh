@@ -9,4 +9,4 @@ curl \
   -H "Accept-Language: $LANGUAGE" \
   -H "User-Agent: $UA" \
   -o result.html \
-  https://wttr.in/Hangzhou:Xihu?format=4\&M
+  https://wttr.in/Hangzhou:xihu?format=4\&M
